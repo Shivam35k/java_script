@@ -41,3 +41,30 @@ console.log(typeof bigNumber);
 //  if you more study of datatype so plz go the website of (ECMA script language)
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+//  +++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//  memory 
+// stack (primitive)
+// heap(non primitive)
+ 
+
+let myYoutubename = "shivamyoucom"
+
+let anothername = myYoutubename
+anothername = "shivamourcode"
+console.log(anothername);
+console.log(myYoutubename);
+
+let userOne = {
+    email: "shiv@google.com",
+    upi: "user@by"
+}
+
+let userTwo = userOne
+userTwo.email = "shivam@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
